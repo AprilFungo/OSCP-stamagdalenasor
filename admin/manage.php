@@ -91,7 +91,7 @@
                                 <label>Old Password</label>
                                 <input required type="password" class="form-control" name="oldpass"><br>
                                 <label>New Password</label>
-                                <input required type="password" class="form-control" name="newpass"><br>
+                                <input required type="password" minlength="8" maxlength="50" class="form-control" name="newpass"><br>
                                 <label>Confirm Password</label>
                                 <input required type="password" class="form-control" name="conpass"><br><br>
                                 <button type="submit" name="updateBtn" class="btn btn-success w-100">Update</button>

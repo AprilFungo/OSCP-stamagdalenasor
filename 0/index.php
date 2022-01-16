@@ -106,7 +106,6 @@ if (isset($_POST['submitBtn'])) {
     border-color: whitesmoke;
     margin-bottom: 15px;
   }
-
 </style>
 <!-- <body style="background-image: url(asset/img/view.jpg);background-repeat: no-repeat;background-attachment: fixed;background-size: cover; "> -->
 <!-- navbar-->
@@ -181,13 +180,18 @@ if (isset($_POST['submitBtn'])) {
                 <label for="listingUrl">Religion</label>
                 <input required class="form-control form-control-lg" id="listingUrl" type="text" name="religion" placeholder="Religion" minlength="5" maxlength="50">
               </div>
+
+              <div class="col-lg-12">
+                <p><b>Upload Valid Id</b></p>
+              </div>
+
               <div class="form-group col-lg-6 mb-lg-0">
-                <label for="listingThumb">Upload Valid ID</label>
+                <label for="listingThumb">Front</label>
                 <input required class="form-control form-control-lg-2" onchange="displayImg(this,$(this))" id="listingThumb" type="file" name="img">
                 <img src="" alt="" id="cimg">
               </div>
               <div class="form-group col-lg-6 mb-lg-0">
-                <label for="listingCover">Upload Senior Citizen ID</label>
+                <label for="listingCover">Back</label>
                 <input required class="form-control form-control-lg-2" onchange="displayImg1(this,$(this))" id="listingCover" type="file" name="img1">
                 <img src="" alt="" id="cimg1">
               </div>
