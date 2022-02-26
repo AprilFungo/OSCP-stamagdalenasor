@@ -26,6 +26,9 @@
         $mail = new PHPMailer();
         // server settings
         //When hosted in a live server, replace the SMTP username  with the email used in the credentials and replace SMTP password with the email password. Do this only if you will host this website in a free hosting that doesn't support SMTP. Vistit this site for the instructions: https://github.com/InfinityFreeHosting/contactform
+        //below is the smtp username and password used in the live server
+        // $mail->Username = 'oscp.system@gmail.com';         // SMTP username
+        // $mail->Password = 'cofluosjiqfwobts';          // SMTP password
         $mail->isSMTP();                         // Set mailer to use SMTP
                 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
                 $mail->SMTPAuth = true;          // Enable SMTP authentication
@@ -86,6 +89,10 @@
         $mail = new PHPMailer();
         // server settings
           //When hosted in a live server, replace the SMTP username  with the email used in the credentials and replace SMTP password with the email password. Do this only if you will host this website in a free hosting that doesn't support SMTP. Vistit this site for the instructions: https://github.com/InfinityFreeHosting/contactform
+        //below is the smtp username and password used in the live server
+        // $mail->Username = 'oscp.system@gmail.com';         // SMTP username
+        // $mail->Password = 'cofluosjiqfwobts';          // SMTP password
+
         $mail->isSMTP();                         // Set mailer to use SMTP
                 $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
                 $mail->SMTPAuth = true;          // Enable SMTP authentication
